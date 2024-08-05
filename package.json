@@ -1,0 +1,19 @@
+{
+  "name": "blockchain1",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --testMatch='**/tests/Block-test.mjs' --transform={}"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
